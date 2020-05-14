@@ -12,7 +12,7 @@ import string
 import sys
 import time
 
-import h2o
+#import h2o
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegressionCV
@@ -22,7 +22,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import roc_auc_score
 from sklearn.tree import DecisionTreeClassifier
 
-from h2o.estimators.random_forest import H2ORandomForestEstimator
+#from h2o.estimators.random_forest import H2ORandomForestEstimator
 
 
 #h2o.init()
